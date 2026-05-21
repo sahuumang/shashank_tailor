@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shashankh Tailor and Fabric — Gents' Tailoring & Quality Fabrics, Sagar (M.P.)</title>
+<meta name="description" content="Shashankh Tailor and Fabric — expert gents' tailoring and premium fabrics in Moti Nagar, Sagar, Madhya Pradesh. Suits, sherwani, kurta-pajama, shirts, trousers & alterations. Call 9826852485." />
+
+<!-- ===== Open Graph (for WhatsApp / Facebook link preview) ===== -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Shashankh Tailor and Fabric — Gents' Tailoring & Fabrics, Sagar" />
+<meta property="og:description" content="Expert gents' tailoring and quality fabrics in Sagar, M.P. Suits, sherwani, kurta-pajama & more. Open 10 AM – 9 PM." />
+
+<!-- Favicon: a needle-and-thread style 'S' monogram -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23211d18'/%3E%3Ctext x='50' y='72' font-family='Georgia,serif' font-size='62' fill='%23c9a227' text-anchor='middle' font-style='italic'%3ES%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#211d18;          /* deep charcoal-brown */
+    --ink-2:#2e2820;
+    --paper:#f6f1e7;        /* warm cream */
+    --paper-2:#efe8d8;
+    --card:#fffdf8;
+    --line:#ddd3bf;
+    --gold:#b8893d;         /* brass / gold accent */
+    --gold-bright:#caa14e;
+    --gold-soft:#f0e4cc;
+    --muted:#8a8170;
+    --text-soft:#4c463b;
+    --maxw:1120px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:"Outfit",sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+
+  /* subtle fabric-weave texture overlay */
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cg fill='none' stroke='%23211d18' stroke-opacity='0.03' stroke-width='1'%3E%3Cpath d='M0 0h40v40H0z'/%3E%3Cpath d='M0 20h40M20 0v40'/%3E%3C/g%3E%3C/svg%3E");}
+  .wrap,nav,header,section,footer{position:relative;z-index:1}
+
+  /* ===== top call bar ===== */
+  .topbar{background:var(--ink);color:var(--paper);font-size:13.5px;letter-spacing:.02em}
+  .topbar .wrap{display:flex;justify-content:center;gap:8px;align-items:center;padding:9px 22px;flex-wrap:wrap;text-align:center}
+  .topbar b{color:var(--gold-bright);font-weight:500}
+
+  /* ===== nav ===== */
+  nav{position:sticky;top:0;z-index:50;background:rgba(246,241,231,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:13px 22px}
+  .brand{display:flex;align-items:center;gap:11px}
+  .brand .mono{width:42px;height:42px;border-radius:9px;background:var(--ink);color:var(--gold-bright);display:grid;place-items:center;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:30px;font-weight:600;flex:none}
+  .brand .nm{font-family:"Cormorant Garamond",serif;font-size:21px;font-weight:600;line-height:1.05;letter-spacing:.01em}
+  .brand .nm span{display:block;font-family:"Outfit";font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-top:2px}
+  .navlinks{display:flex;gap:26px;align-items:center;font-size:14.5px;font-weight:400}
+  .navlinks a{color:var(--text-soft);transition:.2s;position:relative}
+  .navlinks a:hover{color:var(--ink)}
+  .navlinks a::after{content:"";position:absolute;left:0;bottom:-4px;height:1.5px;width:0;background:var(--gold);transition:width .25s}
+  .navlinks a:hover::after{width:100%}
+  .nav-call{display:inline-flex;align-items:center;gap:7px;background:var(--ink);color:var(--paper)!important;padding:9px 16px;border-radius:6px;font-size:13.5px;font-weight:500}
+  .nav-call:hover{background:var(--gold);color:#fff!important}
+  .nav-call::after{display:none!important}
+  @media(max-width:760px){.navlinks a:not(.nav-call){display:none}}
+
+  /* ===== buttons ===== */
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:14px 24px;border-radius:7px;font-size:15px;font-weight:500;transition:.22s;cursor:pointer;border:0;font-family:"Outfit"}
+  .btn-call{background:var(--ink);color:var(--paper)}
+  .btn-call:hover{background:var(--ink-2);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(33,29,24,.6)}
+  .btn-wa{background:#1faf54;color:#fff}
+  .btn-wa:hover{background:#1c9e4c;transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(31,175,84,.55)}
+  .btn-gold{background:var(--gold);color:#fff}
+  .btn-gold:hover{background:var(--gold-bright);transform:translateY(-2px)}
+  .btn-ghost{background:transparent;border:1.5px solid var(--ink);color:var(--ink)}
+  .btn-ghost:hover{background:var(--ink);color:var(--paper)}
+
+  /* ===== hero ===== */
+  header{padding:64px 0 70px;position:relative;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+  @media(max-width:880px){.hero-grid{grid-template-columns:1fr;gap:36px}}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:20px}
+  .eyebrow::before{content:"";width:30px;height:1.5px;background:var(--gold)}
+  h1{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(44px,7.5vw,76px);line-height:.98;letter-spacing:-.01em;margin-bottom:8px}
+  h1 i{font-style:italic;color:var(--gold)}
+  .hindi{font-family:"Noto Serif Devanagari",serif;font-size:clamp(18px,3vw,24px);color:var(--text-soft);margin-bottom:20px;font-weight:500}
+  .hero-sub{font-size:clamp(16px,2vw,18.5px);color:var(--text-soft);max-width:520px;margin-bottom:30px}
+  .hero-sub b{color:var(--ink);font-weight:600}
+  .hero-cta{display:flex;gap:13px;flex-wrap:wrap}
+  .hero-meta{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap}
+  .hero-meta .m .l{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .hero-meta .m .v{font-family:"Cormorant Garamond",serif;font-size:21px;font-weight:600;color:var(--ink)}
+  .hero-meta .m .v small{font-family:"Outfit";font-size:13px;font-weight:400;color:var(--text-soft)}
+
+  /* hero visual */
+  .hero-visual{position:relative}
+  .hero-photo{aspect-ratio:4/5;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(150deg,var(--ink),var(--ink-2));position:relative;box-shadow:0 40px 70px -40px rgba(33,29,24,.6)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .hero-photo .ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gold-soft);text-align:center;padding:30px;gap:14px}
+  .hero-photo .ph svg{width:64px;height:64px;opacity:.55}
+  .hero-photo .ph span{font-size:13px;letter-spacing:.04em;opacity:.7;line-height:1.5}
+  .hero-badge{position:absolute;bottom:-22px;left:-18px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;box-shadow:0 24px 50px -24px rgba(33,29,24,.5);max-width:215px}
+  @media(max-width:880px){.hero-badge{left:auto;right:0}}
+  .hero-badge .star{color:var(--gold);font-size:15px;letter-spacing:2px}
+  .hero-badge p{font-size:13px;color:var(--text-soft);margin-top:5px;line-height:1.45}
+  .hero-badge b{color:var(--ink)}
+
+  /* ===== marquee specialties ===== */
+  .strip{background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap;padding:15px 0;border-top:3px solid var(--gold)}
+  .strip .track{display:inline-block;animation:scroll 26s linear infinite}
+  .strip span{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:22px;margin:0 26px;color:var(--paper)}
+  .strip span::before{content:"✦";color:var(--gold-bright);font-style:normal;font-size:12px;margin-right:26px;vertical-align:middle}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+
+  /* ===== section base ===== */
+  section{padding:84px 0}
+  .sec-head{margin-bottom:46px;max-width:640px}
+  .sec-tag{font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:13px}
+  .sec-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(32px,5.5vw,52px);line-height:1.04;letter-spacing:-.01em}
+  .sec-title i{font-style:italic;color:var(--gold)}
+  .sec-intro{color:var(--text-soft);font-size:16.5px;margin-top:14px}
+
+  /* about */
+  .about{background:var(--paper-2)}
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}
+  @media(max-width:820px){.about-grid{grid-template-columns:1fr;gap:34px}}
+  .about-lead{font-family:"Cormorant Garamond",serif;font-size:clamp(23px,3.2vw,32px);line-height:1.4;font-weight:500}
+  .about-lead i{font-style:italic;color:var(--gold)}
+  .about-body{margin-top:18px;color:var(--text-soft);font-size:16px}
+  .about-body p{margin-bottom:14px}
+  .about-photo{aspect-ratio:1/1;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(150deg,var(--ink),var(--ink-2));position:relative}
+  .about-photo img{width:100%;height:100%;object-fit:cover}
+
+  /* services / fabric cards */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:820px){.cards{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.cards{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:28px 24px;transition:.25s}
+  .card:hover{transform:translateY(-4px);box-shadow:0 22px 44px -26px rgba(33,29,24,.4);border-color:var(--gold)}
+  .card .ic{width:46px;height:46px;border-radius:10px;background:var(--gold-soft);color:var(--gold);display:grid;place-items:center;margin-bottom:16px}
+  .card .ic svg{width:24px;height:24px}
+  .card h3{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:23px;margin-bottom:7px}
+  .card p{font-size:14.5px;color:var(--text-soft);line-height:1.55}
+
+  /* fabric section bg */
+  .fabric{background:var(--ink);color:var(--paper)}
+  .fabric .sec-title{color:var(--paper)}
+  .fabric .sec-intro{color:#cdc5b3}
+  .fabric .card{background:var(--ink-2);border-color:#3b332a}
+  .fabric .card:hover{border-color:var(--gold)}
+  .fabric .card h3{color:var(--paper)}
+  .fabric .card p{color:#c4bcab}
+  .fabric .card .ic{background:rgba(184,137,61,.18)}
+
+  /* gallery */
+  .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  @media(max-width:760px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+  .gtile{position:relative;aspect-ratio:3/4;border-radius:11px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(150deg,var(--paper-2),var(--card));transition:.25s}
+  .gtile:hover{box-shadow:0 20px 40px -24px rgba(33,29,24,.45);transform:translateY(-3px)}
+  .gtile img{width:100%;height:100%;object-fit:cover}
+  .gtile .empty{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted);text-align:center;padding:16px}
+  .gtile .empty svg{width:34px;height:34px;opacity:.6}
+  .gtile .empty span{font-size:12.5px;line-height:1.4}
+  .gtile .cam{position:absolute;top:10px;right:10px;background:rgba(33,29,24,.78);color:var(--gold-bright);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;opacity:0;transition:.2s}
+  .gtile:hover .cam{opacity:1}
+  .gtile .cam svg{width:17px;height:17px}
+  .gallery-note{margin-top:22px;background:var(--gold-soft);border:1px solid #e4d2a8;border-radius:10px;padding:16px 20px;font-size:14px;color:#6b5320;display:flex;gap:12px;align-items:flex-start}
+  .gallery-note svg{flex:none;width:20px;height:20px;margin-top:2px;color:var(--gold)}
+  .gallery-note b{color:var(--ink)}
+
+  /* why */
+  .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+  @media(max-width:820px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:460px){.why-grid{grid-template-columns:1fr}}
+  .why-item{text-align:center;padding:10px}
+  .why-item .n{font-family:"Cormorant Garamond",serif;font-size:46px;font-weight:600;color:var(--gold);line-height:1}
+  .why-item h4{font-family:"Cormorant Garamond",serif;font-size:21px;font-weight:600;margin:8px 0 6px}
+  .why-item p{font-size:14px;color:var(--text-soft);line-height:1.5}
+
+  /* location */
+  .loc{background:var(--paper-2)}
+  .loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch}
+  @media(max-width:820px){.loc-grid{grid-template-columns:1fr}}
+  .loc-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:34px 32px;display:flex;flex-direction:column}
+  .loc-row{display:flex;gap:15px;padding:17px 0;border-bottom:1px solid var(--line)}
+  .loc-row:last-of-type{border-bottom:0}
+  .loc-row .ic{width:42px;height:42px;flex:none;border-radius:10px;background:var(--gold-soft);color:var(--gold);display:grid;place-items:center}
+  .loc-row .ic svg{width:21px;height:21px}
+  .loc-row .l{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .loc-row .v{font-size:16px;color:var(--ink);font-weight:500}
+  .loc-row .v a:hover{color:var(--gold)}
+  .loc-cta{display:flex;gap:11px;margin-top:24px;flex-wrap:wrap}
+  .map-box{border-radius:14px;overflow:hidden;border:1px solid var(--line);min-height:340px;background:var(--ink)}
+  .map-box iframe{width:100%;height:100%;min-height:340px;border:0;display:block;filter:grayscale(.2) contrast(1.05)}
+
+  /* final cta */
+  .cta-final{background:var(--ink);color:var(--paper);text-align:center}
+  .cta-final h2{font-family:"Cormorant Garamond",serif;font-size:clamp(34px,6vw,60px);font-weight:600;line-height:1.05;margin-bottom:14px}
+  .cta-final h2 i{font-style:italic;color:var(--gold-bright)}
+  .cta-final p{color:#cdc5b3;font-size:17px;max-width:480px;margin:0 auto 30px}
+  .cta-final .hero-cta{justify-content:center}
+
+  /* footer */
+  footer{background:var(--ink-2);color:#b8af9d;padding:36px 0;text-align:center;font-size:13.5px}
+  footer .fbrand{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:26px;color:var(--paper);margin-bottom:8px}
+  footer .fbrand b{color:var(--gold-bright)}
+  footer a:hover{color:var(--gold-bright)}
+  footer .fmeta{margin:10px 0 4px;line-height:1.8}
+
+  /* sticky mobile call/whatsapp bar */
+  .mobile-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:60;background:var(--card);border-top:1px solid var(--line);padding:9px 12px;gap:9px;box-shadow:0 -8px 24px -12px rgba(33,29,24,.3)}
+  .mobile-bar a{flex:1;justify-content:center;padding:13px;border-radius:8px;font-size:15px}
+  @media(max-width:760px){.mobile-bar{display:flex}body{padding-bottom:72px}}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<!-- TOP CALL BAR -->
+<div class="topbar"><div class="wrap">
+  📍 Moti Nagar, Sagar (M.P.) &nbsp;·&nbsp; 🕙 Open Daily <b>10 AM – 9 PM</b> &nbsp;·&nbsp; 📞 <b>98268 52485</b>
+</div></div>
+
+<!-- NAV -->
+<nav><div class="wrap">
+  <a class="brand" href="#top">
+    <span class="mono">S</span>
+    <span class="nm">Shashankh<span>Tailor &amp; Fabric</span></span>
+  </a>
+  <div class="navlinks">
+    <a href="#services">Tailoring</a>
+    <a href="#fabric">Fabrics</a>
+    <a href="#gallery">Our Work</a>
+    <a href="#location">Visit Us</a>
+    <a class="nav-call" href="tel:+919826852485">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call Now
+    </a>
+  </div>
+</div></nav>
+
+<!-- HERO -->
+<header id="top"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow reveal">Gents' Tailoring &amp; Fine Fabrics</span>
+      <h1 class="reveal">Perfectly stitched, <i>just for you.</i></h1>
+      <p class="hindi reveal">शशांख टेलर एंड फैब्रिक — आपकी पसंद, हमारी सिलाई</p>
+      <p class="hero-sub reveal">At <b>Shashankh Tailor and Fabric</b>, every garment is cut and stitched with care — from sharp suits and royal sherwanis to everyday shirts and trousers. Quality fabrics, precise fitting, honest pricing.</p>
+      <div class="hero-cta reveal">
+        <a class="btn btn-call" href="tel:+919826852485">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call 98268 52485
+        </a>
+        <a class="btn btn-wa" href="https://wa.me/919826852485?text=Hello%2C%20I%20would%20like%20to%20know%20about%20your%20tailoring%20and%20fabric%20services." target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.929-1.029zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="hero-meta reveal">
+        <div class="m"><div class="l">Open Daily</div><div class="v">10<small> AM</small> – 9<small> PM</small></div></div>
+        <div class="m"><div class="l">Location</div><div class="v">Sagar, M.P.</div></div>
+        <div class="m"><div class="l">Specialty</div><div class="v">Gents' Wear</div></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <!-- HERO PHOTO: replace images/hero.jpg with your own shop photo (keep the same filename) -->
+      <div class="hero-photo"><img src="images/hero.jpg" alt="Well-tailored men's suit"></div>
+      <div class="hero-badge">
+        <div class="star">★★★★★</div>
+        <p><b>Trusted by locals</b> in Sagar for quality stitching &amp; fabrics.</p>
+      </div>
+    </div>
+  </div>
+</div></header>
+
+<!-- SPECIALTY STRIP -->
+<div class="strip"><div class="track" id="track">
+  <span>Suits &amp; Blazers</span><span>Sherwani</span><span>Kurta-Pajama</span><span>Shirts</span><span>Trousers</span><span>Wedding Wear</span><span>Alterations</span><span>Premium Fabrics</span>
+</div></div>
+
+<!-- ABOUT -->
+<section class="about" id="about"><div class="wrap">
+  <div class="about-grid">
+    <div class="reveal">
+      <div class="sec-tag">About the Shop</div>
+      <p class="about-lead">A name Sagar trusts for <i>fine gents' tailoring</i> and quality fabric.</p>
+      <div class="about-body">
+        <p>Shashankh Tailor and Fabric brings together two things every well-dressed man needs — <b>good cloth and a good stitch</b>. From selecting the right fabric to taking careful measurements, every step is done with attention so the final garment fits you just right.</p>
+        <p>Whether it's a sharp suit for an occasion, a traditional sherwani or kurta for a wedding, or everyday shirts and trousers, the work is finished neatly, on time, and at a fair price.</p>
+      </div>
+      <a class="btn btn-ghost" href="#services" style="margin-top:8px">See what we offer →</a>
+    </div>
+    <div class="about-photo reveal"><img src="images/about.jpg" alt="Tailor taking measurements"></div>
+  </div>
+</div></section>
+
+<!-- SERVICES (TAILORING) -->
+<section id="services"><div class="wrap">
+  <div class="sec-head reveal">
+    <div class="sec-tag">Tailoring Services</div>
+    <h2 class="sec-title">Stitched to <i>fit you perfectly.</i></h2>
+    <p class="sec-intro">Expert gents' tailoring for every occasion — formal, traditional, and everyday.</p>
+  </div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 3 12 7 8 3M12 7v14M6 21h12"/><path d="M6 21 4 9l8-2 8 2-2 12"/></svg></div>
+      <h3>Suits &amp; Blazers</h3><p>Sharp, well-fitted formal suits, blazers and waistcoats — tailored for office, events and interviews.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M7 5l5-3 5 3M5 9l2-4M19 9l-2-4M5 9v11h14V9"/></svg></div>
+      <h3>Sherwani &amp; Indo-Western</h3><p>Royal sherwanis and indo-western outfits for weddings, festivals and special occasions.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 2 6 5v17h12V5l-3-3M9 2h6M9 2v3h6V2"/></svg></div>
+      <h3>Kurta-Pajama</h3><p>Comfortable, well-cut kurta-pajama and traditional wear in the fabric and style you like.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3 4 6v15h16V6l-3-3-2 2-3-2-3 2-2-2zM10 4l2 1 2-1"/></svg></div>
+      <h3>Shirts</h3><p>Custom shirts — formal and casual — stitched to your exact measurement and collar style.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2h8l-1 9 3 11h-5l-1-8-1 8H5l3-11z"/></svg></div>
+      <h3>Trousers &amp; Pants</h3><p>Formal trousers and pants with a clean finish and the right fit at waist and length.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.5 15.5M14.5 9.5 20 20M8.6 8.6 12 12"/></svg></div>
+      <h3>Alterations &amp; Repairs</h3><p>Quick, neat alterations and repairs — resizing, fall-pico, and finishing touches.</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- FABRIC -->
+<section class="fabric" id="fabric"><div class="wrap">
+  <div class="sec-head reveal">
+    <div class="sec-tag">Our Fabrics</div>
+    <h2 class="sec-title">Quality cloth, <i>great variety.</i></h2>
+    <p class="sec-intro">Choose from a wide selection of suiting and shirting fabrics — pick the cloth, and we'll stitch it for you.</p>
+  </div>
+  <div class="cards">
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></div>
+      <h3>Suiting Fabrics</h3><p>Premium suiting material in classic and modern shades — perfect for suits and blazers.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4zM4 8h16M8 4v16"/></svg></div>
+      <h3>Shirting Fabrics</h3><p>Plains, checks and subtle patterns in soft, breathable cloth for everyday shirts.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12c3-4 6-4 9 0s6 4 9 0M3 18c3-4 6-4 9 0s6 4 9 0M3 6c3-4 6-4 9 0s6 4 9 0"/></svg></div>
+      <h3>Cotton &amp; Linen</h3><p>Light, comfortable cotton and linen — ideal for kurtas and summer wear.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18"/></svg></div>
+      <h3>Festive &amp; Wedding</h3><p>Rich fabrics, silks and blends for sherwanis and special-occasion outfits.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 2 7l10 5 10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+      <h3>Wool &amp; Blends</h3><p>Warm, durable woollen fabrics and blends for the winter season.</p>
+    </div>
+    <div class="card reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6 9 17l-5-5"/></svg></div>
+      <h3>Fabric + Stitching</h3><p>Buy the cloth and get it stitched here — one place for everything, neatly done.</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- GALLERY -->
+<section id="gallery"><div class="wrap">
+  <div class="sec-head reveal">
+    <div class="sec-tag">Our Work</div>
+    <h2 class="sec-title">A look at the <i>craftsmanship.</i></h2>
+    <p class="sec-intro">These are sample illustrations of the kind of work done here — suits, sherwani, fabrics and more. Tap any box to preview your own photo in its place.</p>
+  </div>
+  <div class="gallery-grid reveal" id="galleryGrid">
+    <!-- 6 photo slots. Swap the images/*.jpg files to use your own (keep the same filenames). -->
+    <div class="gtile"><img src="images/suit.jpg" alt="Tailored men's suit"></div>
+    <div class="gtile"><img src="images/sherwani.jpg" alt="Sherwani for weddings"></div>
+    <div class="gtile"><img src="images/kurta.jpg" alt="Kurta-pajama"></div>
+    <div class="gtile"><img src="images/shirts.jpg" alt="Custom shirts"></div>
+    <div class="gtile"><img src="images/fabric-folded.jpg" alt="Quality fabrics"></div>
+    <div class="gtile"><img src="images/fabric-rolls.jpg" alt="Suiting and shirting fabrics"></div>
+  </div>
+  <div class="gallery-note">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+    <div><b>Note:</b> these are sample stock photos, not the actual shop. To use your own, put your pictures in the <b>images</b> folder and either keep the same filenames (suit.jpg, sherwani.jpg, kurta.jpg, shirts.jpg, fabric-folded.jpg, fabric-rolls.jpg, hero.jpg, about.jpg) or update the filenames in the <b>&lt;img src="…"&gt;</b> tags. Visitors cannot change these photos.</div>
+  </div>
+</div></section>
+
+<!-- WHY -->
+<section class="about"><div class="wrap">
+  <div class="sec-head reveal" style="text-align:center;margin-left:auto;margin-right:auto">
+    <div class="sec-tag">Why Choose Us</div>
+    <h2 class="sec-title">Good reasons to <i>visit us.</i></h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-item reveal"><div class="n">1</div><h4>Perfect Fitting</h4><p>Careful measurements so every garment sits right on you.</p></div>
+    <div class="why-item reveal"><div class="n">2</div><h4>Quality Fabric</h4><p>A wide range of trusted suiting and shirting cloth.</p></div>
+    <div class="why-item reveal"><div class="n">3</div><h4>On-Time Delivery</h4><p>Your order finished neatly and ready when promised.</p></div>
+    <div class="why-item reveal"><div class="n">4</div><h4>Fair Pricing</h4><p>Honest rates for quality work — no surprises.</p></div>
+  </div>
+</div></section>
+
+<!-- LOCATION -->
+<section class="loc" id="location"><div class="wrap">
+  <div class="sec-head reveal">
+    <div class="sec-tag">Visit the Shop</div>
+    <h2 class="sec-title">Find us in <i>Moti Nagar, Sagar.</i></h2>
+    <p class="sec-intro">Walk in to choose your fabric and get measured. We're open every day.</p>
+  </div>
+  <div class="loc-grid">
+    <div class="loc-card reveal">
+      <div class="loc-row">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div><div class="l">Address</div><div class="v">Near Badi Mata, Chandrashekhar Ward,<br>Moti Nagar, Sagar, Madhya Pradesh 470002</div></div>
+      </div>
+      <div class="loc-row">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div><div class="l">Phone</div><div class="v"><a href="tel:+919826852485">+91 98268 52485</a></div></div>
+      </div>
+      <div class="loc-row">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <div><div class="l">Open Hours</div><div class="v">Every day · 10:00 AM – 9:00 PM</div></div>
+      </div>
+      <div class="loc-cta">
+        <a class="btn btn-call" href="tel:+919826852485">Call Shop</a>
+        <a class="btn btn-wa" href="https://wa.me/919826852485?text=Hello%2C%20I%20want%20to%20visit%20your%20shop.%20Please%20share%20details." target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-gold" href="https://www.google.com/maps/search/?api=1&query=Shashankh+Tailor+and+Fabric+Moti+Nagar+Sagar+Madhya+Pradesh+470002" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+    <div class="map-box reveal">
+      <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Moti%20Nagar%2C%20Sagar%2C%20Madhya%20Pradesh%20470002&z=15&output=embed"
+        title="Shashankh Tailor and Fabric location"></iframe>
+    </div>
+  </div>
+</div></section>
+
+<!-- FINAL CTA -->
+<section class="cta-final"><div class="wrap">
+  <h2 class="reveal">Ready for a <i>perfect fit?</i></h2>
+  <p class="reveal">Call or message us today, or visit the shop to choose your fabric and get measured.</p>
+  <div class="hero-cta reveal">
+    <a class="btn btn-gold" href="tel:+919826852485">📞 Call 98268 52485</a>
+    <a class="btn btn-wa" href="https://wa.me/919826852485?text=Hello%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Message on WhatsApp</a>
+  </div>
+</div></section>
+
+<!-- FOOTER -->
+<footer><div class="wrap">
+  <div class="fbrand">Shashankh <b>Tailor &amp; Fabric</b></div>
+  <div class="fmeta">
+    Near Badi Mata, Chandrashekhar Ward, Moti Nagar, Sagar, M.P. 470002<br>
+    <a href="tel:+919826852485">+91 98268 52485</a> &nbsp;·&nbsp; Open Daily 10 AM – 9 PM
+  </div>
+  <div style="margin-top:12px;opacity:.7">© <span id="yr"></span> Shashankh Tailor and Fabric · Sagar, Madhya Pradesh</div>
+</div></footer>
+
+<!-- STICKY MOBILE BAR -->
+<div class="mobile-bar">
+  <a class="btn btn-call" href="tel:+919826852485">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call
+  </a>
+  <a class="btn btn-wa" href="https://wa.me/919826852485" target="_blank" rel="noopener">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // ----- scroll reveal -----
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold:.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // ----- specialty strip duplicate for seamless loop -----
+  const track = document.getElementById('track');
+  track.innerHTML += track.innerHTML;
+</script>
+</body>
+</html>
